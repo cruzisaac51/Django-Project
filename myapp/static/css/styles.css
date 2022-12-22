@@ -1,0 +1,29 @@
+body {
+    background: black;
+    color:white;
+}
+
+.navbar {
+    background: blue;
+    padding: 10px 0;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: greenyellow
+}
+.container {
+    max-width: 1200px;
+    background: red;
+    margin: auto;
+    padding: 0px 20px;
+}

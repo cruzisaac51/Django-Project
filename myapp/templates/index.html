@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block content %}
 <h1> 
@@ -6,5 +7,5 @@
 </h1>
 
 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex. Nobis numquam dicta, ab, perspiciatis doloremque delectus iure pariatur adipisci rem ducimus porro dolores rerum eligendi itaque maiores ipsam quo! </p>
-
+<img src="{% static 'images/image.png' %}" alt="image halo" width="600">
 {% endblock %}
